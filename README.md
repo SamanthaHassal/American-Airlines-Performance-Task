@@ -9,7 +9,7 @@ The first function, _singleChar\_scheme_, is only called in instances where the 
 
 The second function, _multiScheme_, is called when the scheme is in the form "P-WXYZ". This function uses a hash to map each of the letter codes above to their respective labels. When the scheme goes into the function, the "P-" part is removed and the remaining string gets decomposed into a vector. The vector is then fed into the hash to get a new vector containing the corresponding labels. The function then concatenates the strings in the vector in the correct format and spits out the formatted string.
 
-## Task 2: Loading constants from an external file
+## Task 2: Loading Constants From An External File
 
 The goal of this task was to load the constants into the program from an outside file. Doing this comes in handy if you have a lot of long, complicated constants that do not need to be modified. The program reads the constants from a file called CodesAndLabels.csv. The file contains the one-letter codes used in the schemes as well as the string "Net Flown Revenue". 
 
