@@ -1,4 +1,4 @@
-# American Airlines Performance Task 
+# Samantha Hassal - American Airlines Performance Task 
 ## Task 1: Simplifying Complex Code
 
 The R function _printNetFlownRevenue_ is used to generate specific text depending on the ‘scheme’. This part of the performance task consisted of taking the original code and rewriting it to avoid a multi-branch if statement. I broke the decision tree in the original if statement into two separate functions called in a smaller if statement within  _printNetFlownRevenue_. 
