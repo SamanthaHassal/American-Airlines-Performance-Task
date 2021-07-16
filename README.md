@@ -14,3 +14,9 @@ The second function, _multiScheme_, is called when the scheme is in the form "P-
 The goal of this task was to load the constants into the program from an outside file. Doing this comes in handy if you have a lot of long, complicated constants that do not need to be modified. The program reads the constants from a file called CodesAndLabels.csv. The file contains the one-letter codes used in the schemes as well as the string "Net Flown Revenue". 
 
 After we loaded the constants into the program, we stored them outside the functions (unlike the previous iteration of the _printNetFlownRevenue_). Besides reading the constants from a CSV, we've also streamlined the program further.
+
+## Task 3: Development and Problem Solving - AAdvantage Status 
+
+We created a data file that an external program can access to display a passenger's status (Gold, Platinum, Platinum Pro, etc) at any point in time. We opted to do this because of its simplicity, versatility (doesn't matter what programming language the lookup code uses to access the data), and practicality.  
+
+The AAdvantage Passenger Status Table is a two-sheet Excel (.xlsx) file. Sheet 1 contains the flight log. Sheet 2 contains a timeline showing status change (e.g.,  promotion from "Gold" status to "Platinum" status) and the expiry date of that status. Any code that needs to access the system to pull up a customer's status information will need to access both the flight log and the status timeline. 
